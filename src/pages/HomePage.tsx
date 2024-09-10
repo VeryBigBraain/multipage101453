@@ -1,11 +1,7 @@
-import { Containerimport { capitalizeFirstLetter } from "./strings";
- } from "./components/Container";
-import { Buttonimport { capitalizeFirstLetter } from "./strings";
- } from "./components/Button";
-import { Textimport { capitalizeFirstLetter } from "./strings";
- } from "./components/Text";
-import { Card, CardTop, CardBottomimport { capitalizeFirstLetter } from "./strings";
- } from "./components/Card";
+import { Container } from "./components/Container";
+import { Button } from "./components/Button";
+import { Text } from "./components/Text";
+import { Card, CardTop, CardBottom } from "./components/Card";
 
 export function HomePage() {
   return (

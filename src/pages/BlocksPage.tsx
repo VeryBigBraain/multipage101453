@@ -1,7 +1,5 @@
-import { Containerimport { capitalizeFirstLetter } from "./strings";
- } from "./components/Container";
-import { Textimport { capitalizeFirstLetter } from "./strings";
- } from "./components/Text";
+import { Container } from "./components/Container";
+import { Text } from "./components/Text";
 
 export function BlocksPage() {
   return (
