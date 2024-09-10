@@ -7,8 +7,7 @@ import { BlocksPage } from './pages/BlocksPage';
 import { NewsPage } from './pages/NewsPage';
 
 export default function App() {
-  return (
-    const router = createBrowserRouter([{
+  const router = createBrowserRouter([{
       path: "/",
       element: <HomePage />
   },{
@@ -18,7 +17,8 @@ export default function App() {
       path: "/news",
       element: <newsPage />
   },]);
-
+  
+  return (
     <div className="App">
       <RouterProvider router={router} />
     </div>
