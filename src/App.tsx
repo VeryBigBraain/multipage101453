@@ -12,10 +12,10 @@ export default function App() {
       element: <HomePage />
   },{
       path: "/news",
-      element: <newsPage />
+      element: <NewsPage />
   },{
       path: "/block",
-      element: <blockPage />
+      element: <BlockPage />
   },]);
   
   return (
